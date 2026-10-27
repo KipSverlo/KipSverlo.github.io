@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Перунов Аркадий — сайты и Telegram-боты для малого бизнеса</title>
+  <meta name="description" content="Разрабатываю сайты и Telegram-боты под ключ для малого бизнеса. Приём заявок в чат, автозапись, каталог услуг. Срок 5–7 дней.">
+
+  <meta property="og:title" content="Перунов Аркадий — сайты и Telegram-боты для малого бизнеса">
+  <meta property="og:description" content="Разрабатываю сайты и Telegram-боты под ключ для малого бизнеса. Приём заявок в чат, автозапись, каталог услуг. Срок 5–7 дней.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#08080a">
+
+  <script>document.documentElement.classList.add("js");</script>
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="KS">
+        <span class="logo__mark">KS</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#services" class="nav__link"><span data-lang="ru">Услуги</span><span data-lang="en">Services</span></a>
+        <a href="#process" class="nav__link"><span data-lang="ru">Процесс</span><span data-lang="en">Process</span></a>
+        <a href="#portfolio" class="nav__link"><span data-lang="ru">Портфолио</span><span data-lang="en">Portfolio</span></a>
+        <a href="#pricing" class="nav__link"><span data-lang="ru">Цены</span><span data-lang="en">Pricing</span></a>
+        <a href="#contacts" class="nav__link"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></a>
+      </nav>
+
+      <div class="header__actions">
+        <div class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-switch__btn" data-set-lang="ru">RU</button>
+          <button type="button" class="lang-switch__btn" data-set-lang="en">EN</button>
+        </div>
+        <button type="button" class="burger" id="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="orbs" aria-hidden="true">
+        <span class="orb orb--1"></span>
+        <span class="orb orb--2"></span>
+      </div>
+      <div class="hero__grid" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <p class="eyebrow hero-anim">
+          <span class="eyebrow__dot"></span>
+          <span data-lang="ru">Перунов Аркадий · разработчик</span>
+          <span data-lang="en">Arkadiy Perunov · developer</span>
+        </p>
+
+        <h1 class="hero__title">
+          <span data-lang="ru">Сайты и <span class="gradient-text">Telegram-боты</span> для малого бизнеса — под ключ за 5–7 дней</span>
+          <span data-lang="en">Websites and <span class="gradient-text">Telegram bots</span> for small business — turnkey in 5–7 days</span>
+        </h1>
+
+        <p class="hero__subtitle hero-anim">
+          <span data-lang="ru">Помогаю салонам, мастерам и небольшим компаниям принимать каждую заявку: сайт и бот, которые работают вместе.</span>
+          <span data-lang="en">I help salons, independent pros and small companies catch every lead: a website and a bot that work together.</span>
+        </p>
+
+        <div class="hero__cta hero-anim">
+          <a href="https://t.me/pipiskus228" class="btn btn--primary" target="_blank" rel="noopener noreferrer">
+            <span data-lang="ru">Обсудить проект</span>
+            <span data-lang="en">Discuss a project</span>
+            <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a href="#portfolio" class="btn btn--ghost">
+            <span data-lang="ru">Портфолио</span>
+            <span data-lang="en">Portfolio</span>
+          </a>
+        </div>
+
+        <ul class="hero__features hero-anim">
+          <li><span data-lang="ru">5–7 дней</span><span data-lang="en">5–7 days</span></li>
+          <li><span data-lang="ru">под ключ</span><span data-lang="en">turnkey</span></li>
+          <li><span data-lang="ru">фикс-цена</span><span data-lang="en">fixed price</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ PROBLEMS ============ -->
+    <section class="section" id="problems">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__label"><span data-lang="ru">Знакомо?</span><span data-lang="en">Sound familiar?</span></p>
+          <h2 class="section__title">
+            <span data-lang="ru">Что мешает бизнесу получать клиентов</span>
+            <span data-lang="en">What keeps your business from getting clients</span>
+          </h2>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="card card--problem">
+            <span class="card__num">01</span>
+            <h3 class="card__title">
+              <span data-lang="ru">Заявки теряются в личных сообщениях</span>
+              <span data-lang="en">Leads get lost in your DMs</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Клиент написал в 23:40, ответили утром — он уже ушёл к конкуренту. Бот принимает заявку мгновенно, 24/7.</span>
+              <span data-lang="en">A client writes at 11:40 pm, you reply in the morning — they've already gone to a competitor. A bot takes the request instantly, 24/7.</span>
+            </p>
+          </article>
+
+          <article class="card card--problem">
+            <span class="card__num">02</span>
+            <h3 class="card__title">
+              <span data-lang="ru">На сайте нет формы, или письма уходят в спам</span>
+              <span data-lang="en">No form on the site, or emails end up in spam</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Настраиваю приём заявок с сайта прямо в Telegram-чат — без почты, спама и потерянных писем.</span>
+              <span data-lang="en">I set up website requests to land straight in your Telegram chat — no email, no spam, no lost messages.</span>
+            </p>
+          </article>
+
+          <article class="card card--problem">
+            <span class="card__num">03</span>
+            <h3 class="card__title">
+              <span data-lang="ru">Рутина съедает часы</span>
+              <span data-lang="en">Routine eats up hours</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Одни и те же вопросы, прайс, запись. Бот отвечает за вас и освобождает время на клиентов и работу.</span>
+              <span data-lang="en">The same questions, the price list, bookings. A bot answers for you and frees up time for clients and real work.</span>
+            </p>
+          </article>
+
+          <article class="card card--problem">
+            <span class="card__num">04</span>
+            <h3 class="card__title">
+              <span data-lang="ru">Студии — дорого и долго</span>
+              <span data-lang="en">Agencies are expensive and slow</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Студии берут от 50 000 ₽ и делают месяц. Я делаю то же самое за 5–7 дней и адекватные деньги.</span>
+              <span data-lang="en">Agencies charge from 50,000 ₽ and take a month. I deliver the same in 5–7 days for a fair price.</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__label"><span data-lang="ru">Услуги</span><span data-lang="en">Services</span></p>
+          <h2 class="section__title">
+            <span data-lang="ru">Что я делаю</span>
+            <span data-lang="en">What I build</span>
+          </h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M21 4 3 11l6 2 2 6 3-4 5 4 2-15Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m9 13 8-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card__title">
+              <span data-lang="ru">Telegram-боты</span>
+              <span data-lang="en">Telegram bots</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Каталог услуг, приём заявок, напоминания, ответы на частые вопросы. Работает 24/7 и не устаёт.</span>
+              <span data-lang="en">Service catalog, lead intake, reminders, answers to FAQs. Works 24/7 and never gets tired.</span>
+            </p>
+          </article>
+
+          <article class="card card--service">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card__title">
+              <span data-lang="ru">Сайты и лендинги</span>
+              <span data-lang="en">Websites &amp; landing pages</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">Одностраничники и визитки, которые сразу подвязаны к Telegram-боту: заявка с сайта падает вам в чат.</span>
+              <span data-lang="en">One-pagers and business-card sites wired to a Telegram bot from day one: every request from the site lands in your chat.</span>
+            </p>
+          </article>
+
+          <article class="card card--service card--muted">
+            <span class="badge badge--soft"><span data-lang="ru">В перспективе</span><span data-lang="en">Coming later</span></span>
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M11 18h2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </div>
+            <h3 class="card__title">
+              <span data-lang="ru">Мобильные приложения</span>
+              <span data-lang="en">Mobile apps</span>
+            </h3>
+            <p class="card__text">
+              <span data-lang="ru">В перспективе — приложение под вашу задачу. Обсуждаем отдельно.</span>
+              <span data-lang="en">Coming later — an app built for your task. Let's discuss it separately.</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__label"><span data-lang="ru">Процесс</span><span data-lang="en">Process</span></p>
+          <h2 class="section__title">
+            <span data-lang="ru">Как мы работаем</span>
+            <span data-lang="en">How we work</span>
+          </h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline__step">
+            <span class="timeline__dot">01</span>
+            <h3 class="timeline__title"><span data-lang="ru">Обсуждаем задачу</span><span data-lang="en">Discuss the task</span></h3>
+            <p class="timeline__text">
+              <span data-lang="ru">15 минут в Telegram: что нужно, для кого, какой результат</span>
+              <span data-lang="en">15 minutes in Telegram: what you need, who it's for, what result you expect</span>
+            </p>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__dot">02</span>
+            <h3 class="timeline__title"><span data-lang="ru">Согласуем ТЗ</span><span data-lang="en">Agree on the spec</span></h3>
+            <p class="timeline__text">
+              <span data-lang="ru">Фиксируем объём, цену и сроки. Без сюрпризов</span>
+              <span data-lang="en">We lock in scope, price and timeline. No surprises</span>
+            </p>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__dot">03</span>
+            <h3 class="timeline__title"><span data-lang="ru">Прототип</span><span data-lang="en">Prototype</span></h3>
+            <p class="timeline__text">
+              <span data-lang="ru">1–2 дня на работающий прототип, который можно потрогать</span>
+              <span data-lang="en">1–2 days to a working prototype you can actually try</span>
+            </p>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__dot">04</span>
+            <h3 class="timeline__title"><span data-lang="ru">Правки и запуск</span><span data-lang="en">Revisions &amp; launch</span></h3>
+            <p class="timeline__text">
+              <span data-lang="ru">Дорабатываем детали, выкладываем в прод</span>
+              <span data-lang="en">We polish the details and ship to production</span>
+            </p>
+          </li>
+          <li class="timeline__step">
+            <span class="timeline__dot">05</span>
+            <h3 class="timeline__title"><span data-lang="ru">Передача</span><span data-lang="en">Handover</span></h3>
+            <p class="timeline__text">
+              <span data-lang="ru">Отдаю код + короткую инструкцию, как всё запустить</span>
+              <span data-lang="en">You get the code + a short guide on how to run everything</span>
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PORTFOLIO ============ -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__label"><span data-lang="ru">Портфолио</span><span data-lang="en">Portfolio</span></p>
+          <h2 class="section__title">
+            <span data-lang="ru">Проекты</span>
+            <span data-lang="en">Projects</span>
+          </h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--project">
+            <div class="project__preview project__preview--bot" aria-hidden="true">
+              <div class="chat">
+                <span class="chat__msg chat__msg--in"><span data-lang="ru">💅 Маникюр · Педикюр · Дизайн</span><span data-lang="en">💅 Manicure · Pedicure · Nail art</span></span>
+                <span class="chat__msg chat__msg--out"><span data-lang="ru">Запись на пятницу, 15:00</span><span data-lang="en">Book Friday, 3:00 pm</span></span>
+                <span class="chat__msg chat__msg--in"><span data-lang="ru">✅ Заявка отправлена мастеру</span><span data-lang="en">✅ Request sent to the master</span></span>
+              </div>
+            </div>
+            <div class="project__body">
+              <span class="badge badge--live"><span data-lang="ru">Готово</span><span data-lang="en">Live</span></span>
+              <h3 class="card__title">
+                <span data-lang="ru">Telegram-бот для маникюрного салона</span>
+                <span data-lang="en">Telegram bot for a nail salon</span>
+              </h3>
+              <p class="card__text">
+                <span data-lang="ru">Демо-бот для вымышленного салона: меню услуг, запись в 3 шага, заявка падает владельцу в чат.</span>
+                <span data-lang="en">A demo bot for a fictional salon: service menu, booking in 3 steps, the request lands in the owner's chat.</span>
+              </p>
+              <a href="https://github.com/KipSverlo/manicure-bot" class="btn btn--small" target="_blank" rel="noopener noreferrer">
+                <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+                <span data-lang="ru">Смотреть на GitHub</span>
+                <span data-lang="en">View on GitHub</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="card card--project card--soon">
+            <div class="project__preview project__preview--form" aria-hidden="true">
+              <div class="mock-form">
+                <span class="mock-form__field"></span>
+                <span class="mock-form__field"></span>
+                <span class="mock-form__btn"></span>
+              </div>
+            </div>
+            <div class="project__body">
+              <span class="badge badge--soon"><span data-lang="ru">Скоро</span><span data-lang="en">Soon</span></span>
+              <h3 class="card__title">
+                <span data-lang="ru">Приём заявок с сайта в Telegram</span>
+                <span data-lang="en">Website leads straight to Telegram</span>
+              </h3>
+              <p class="card__text">
+                <span data-lang="ru">Скоро</span>
+                <span data-lang="en">Coming soon</span>
+              </p>
+            </div>
+          </article>
+
+          <article class="card card--project card--soon">
+            <div class="project__preview project__preview--app" aria-hidden="true">
+              <div class="mock-phone"><span></span><span></span><span></span></div>
+            </div>
+            <div class="project__body">
+              <span class="badge badge--soon"><span data-lang="ru">Скоро</span><span data-lang="en">Soon</span></span>
+              <h3 class="card__title">
+                <span data-lang="ru">Мобильное приложение под задачу</span>
+                <span data-lang="en">A custom mobile app</span>
+              </h3>
+              <p class="card__text">
+                <span data-lang="ru">Скоро</span>
+                <span data-lang="en">Coming soon</span>
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__label"><span data-lang="ru">Цены</span><span data-lang="en">Pricing</span></p>
+          <h2 class="section__title">
+            <span data-lang="ru">Прозрачные цены</span>
+            <span data-lang="en">Transparent pricing</span>
+          </h2>
+        </div>
+
+        <div class="grid grid--3 pricing">
+          <article class="card card--price">
+            <h3 class="price__name"><span data-lang="ru">Лендинг</span><span data-lang="en">Landing page</span></h3>
+            <p class="price__value">
+              <span data-lang="ru"><small>от</small> 5 000 ₽</span>
+              <span data-lang="en"><small>from</small> 5,000 ₽</span>
+            </p>
+            <p class="card__text">
+              <span data-lang="ru">Одностраничный сайт с подвязкой к боту. Адаптив, форма приёма заявок, README по запуску.</span>
+              <span data-lang="en">A one-page website connected to a bot. Responsive, lead form, README on how to launch.</span>
+            </p>
+          </article>
+
+          <article class="card card--price">
+            <h3 class="price__name"><span data-lang="ru">Telegram-бот</span><span data-lang="en">Telegram bot</span></h3>
+            <p class="price__value">
+              <span data-lang="ru"><small>от</small> 8 000 ₽</span>
+              <span data-lang="en"><small>from</small> 8,000 ₽</span>
+            </p>
+            <p class="card__text">
+              <span data-lang="ru">Под ваш сценарий: каталог, запись, напоминания. Python, aiogram, исходники на GitHub.</span>
+              <span data-lang="en">Built around your workflow: catalog, bookings, reminders. Python, aiogram, source code on GitHub.</span>
+            </p>
+          </article>
+
+          <article class="card card--price card--featured">
+            <span class="badge badge--accent"><span data-lang="ru">Выгодно</span><span data-lang="en">Best value</span></span>
+            <h3 class="price__name"><span data-lang="ru">Сайт + бот</span><span data-lang="en">Website + bot</span></h3>
+            <p class="price__value">
+              <span data-lang="ru"><small>от</small> 12 000 ₽</span>
+              <span data-lang="en"><small>from</small> 12,000 ₽</span>
+            </p>
+            <p class="card__text">
+              <span data-lang="ru">Комплексный пакет: лендинг и бот, которые работают вместе. Экономия против заказа по отдельности.</span>
+              <span data-lang="en">The full package: a landing page and a bot that work together. Cheaper than ordering them separately.</span>
+            </p>
+          </article>
+        </div>
+
+        <p class="pricing__note">
+          <span data-lang="ru">Точная цена — после обсуждения задачи. Срочно (2–3 дня) — доплата к стандартному сроку 5–7 дней.</span>
+          <span data-lang="en">The exact price is set after we discuss the task. Rush delivery (2–3 days) costs extra on top of the standard 5–7 days.</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTS ============ -->
+    <section class="section" id="contacts">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__glow" aria-hidden="true"></div>
+          <div class="contact__content">
+            <p class="section__label"><span data-lang="ru">Контакты</span><span data-lang="en">Contacts</span></p>
+            <h2 class="contact__title">
+              <span data-lang="ru">Давайте <span class="gradient-text">обсудим</span> ваш проект</span>
+              <span data-lang="en">Let's <span class="gradient-text">talk</span> about your project</span>
+            </h2>
+            <p class="contact__text">
+              <span data-lang="ru">Готов обсудить ваш проект в Telegram или на почте. Отвечаю в течение дня.</span>
+              <span data-lang="en">Happy to discuss your project on Telegram or by email. I reply within a day.</span>
+            </p>
+            <a href="https://t.me/pipiskus228" class="btn btn--primary btn--large" target="_blank" rel="noopener noreferrer">
+              <span data-lang="ru">Написать в Telegram</span>
+              <span data-lang="en">Message on Telegram</span>
+              <svg class="btn__icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+
+          <ul class="contact__list">
+            <li>
+              <a href="https://t.me/pipiskus228" class="contact__item" target="_blank" rel="noopener noreferrer">
+                <span class="contact__label">Telegram</span>
+                <span class="contact__value">@pipiskus228</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:ovkirill75@gmail.com" class="contact__item">
+                <span class="contact__label">Email</span>
+                <span class="contact__value">ovkirill75@gmail.com</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/KipSverlo" class="contact__item" target="_blank" rel="noopener noreferrer">
+                <span class="contact__label">GitHub</span>
+                <span class="contact__value">github.com/KipSverlo</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        <span data-lang="ru">© 2026 Перунов Аркадий</span>
+        <span data-lang="en">© 2026 Arkadiy Perunov</span>
+      </p>
+      <div class="footer__links">
+        <a href="https://github.com/KipSverlo" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="#top" class="footer__top">
+          <span data-lang="ru">Наверх</span>
+          <span data-lang="en">Back to top</span>
+          ↑
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
